@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="page.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Grenze+Gotisch:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+	<div class ="bord">
+		<div class ="header"><P>My To DO List</P>
+			<input type="text" id="myInput" class="myDate" placeholder="Ur Routine...">
+			<span onclick="myDate()"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+ 		    <span onclick="newElement()" class="adBtn">Here..!</span>
+		    <div  onclick="removeTodo()" class="clear">clear</div>
+		</div>
+		<ul id ="myUL">
+			<li class="checked">Make ur day best</li>
+			<li>HTML</li>
+			<li>Css</li>
+			<li class="checked">Javascript</li>
+			<li>Php</li>
+			<li>MySql</li>
+		</ul>
+
+		<script src="to.js"></script>
+    </div>
+</body>
+</html>

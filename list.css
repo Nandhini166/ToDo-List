@@ -1,0 +1,25 @@
+body {
+	background-image: url(https://images.unsplash.com/photo-1476374220630-14ae6379518c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body:hover {
+	opacity: 0.5;
+}
+h1{
+	text-align: center;
+	color: red;
+}
+a:hover{
+	  background-color: rgb(40, 55, 71 );
+      color: red;
+}
+.border {
+	margin: 35px 50px 30px 50px;
+	padding: 300px;
+	background-color: black;
+	opacity: 0.8;
+	border-style: 10px solid blue;
+	color: black;
+	border-radius: 30px;
+}

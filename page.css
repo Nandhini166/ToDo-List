@@ -1,0 +1,142 @@
+body {
+	background-image: url(https://images.unsplash.com/photo-1542931415-162aeab4418f?ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bord {
+	margin: 35px 60px 30px 60px;
+	padding: 300px;
+	background-color: black;
+	opacity: 0.4;
+	border-radius: 30px;
+}
+.bord:hover {
+	background-image: url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-size: cover;
+	opacity: 1;
+
+
+}
+/*style the header*/
+.header {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 35px;
+	color: rgb(21, 67, 96);
+	margin-top: -250px;
+}
+/* for  floats*/
+.header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* style the input*/
+input {
+	border-radius: 10px;
+	width: 70%;
+	padding: 15px;
+	float: left;
+	font-size: 15px;
+}
+input:focus {
+	background-color: #AEB6BF ;
+}
+/*Button style*/
+.adBtn {
+	padding: 13px;
+	width: 10%;
+	float: right;
+	background-color: #2471A3;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.adBtn:hover {
+	background-color: #D98880;
+} 
+.clear{
+	border-radius: 10px;
+	padding: 13px;
+	width: 5%;
+	left: 80%;
+	margin-right: 8px;
+	position: absolute;
+	float: right;
+	background-color: #5D6D7E;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: 'Grandstander', cursive;
+	
+}
+.clear:hover {
+    background-image: url(https://mpng.subpng.com/20190710/qfb/kisspng-emoticon-smiley-clip-art-sadness-emoji-5d2562ebc0f887.4739314515627312437904.jpg);
+	background-size: cover;
+	opacity: 0.6;
+    font-family: 'Grandstander', cursive;
+
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	cursor: pointer;
+	position: relative;
+	padding: 15px 10px 15px 10px;
+	list-style-type: none;
+	margin-top: 10px;
+	background-color: #E6B0AA;
+	width: 70%;
+	border-radius: 10px;
+	font-size: 16px;
+	transition: 0.1s;
+	font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+
+}
+ul li:nth-child(odd) {
+	background-color: #A2D9CE;
+	font-family: 'Permanent Marker', cursive;
+}
+ul li:hover{
+	background-color: #808B96 ;
+	font-family: 'Cinzel', serif;
+    font-family: 'Courgette', cursive;
+}
+ul li:nth-child(odd):hover {
+	background-color: #D7BDE2;
+}
+/* when clicked on,add bg color and strike out*/
+ul li.checked {
+	background-color: #34495E;
+	color: #E5E7E9;
+	text-decoration: line-through;
+	font-size: 20px;
+}
+/*Checked mark when clicked on*/
+ul li.checked::before {
+	content: "";
+	position: absolute;
+	border-color: white;
+	border-style: solid;
+	border-width: 0 2px 2px 0; 
+	top: 10px;/*for checked mark(tick mark)*/
+	left: 5px;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 7px;
+}
+/* stylethe close button*/
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 12px 16px;
+}
+.close:hover {
+	background-color: #E6B0AA;
+	color: #273746;
+}
